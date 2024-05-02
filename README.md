@@ -2,15 +2,10 @@
 Create a Recommendation Engine from the ground-up, where every single user, based on their area of interest and ratings, would be recommended a list of movies that are best suited for them.
 
 2. Project Objective:
-The project objective of the Netflix Recommendation project using Singular Value Decomposition (SVD) is to create a recommendation system that can predict how a user would rate a movie they have not yet watched based on their historical ratings and the ratings of other users. It includes finding out of the list of most popular movies and most active users and create a model that finds out the best suited movies for two users.
-The ultimate goal is to provide personalized movie recommendations to users, improving their overall experience and engagement with the Netflix platform.The dataset netflix.csv contains 24058263 rows and 2 columns.
+The project objective of the Netflix Recommendation project using Singular Value Decomposition (SVD) is to create a recommendation system that can predict how a user would rate a movie they have not yet watched based on their historical ratings and the ratings of other users. It includes finding out of the list of most popular movies and most active users and create a model that finds out the best suited movies for two users.The ultimate goal is to provide personalized movie recommendations to users, improving their overall experience and engagement with the Netflix platform.The dataset netflix.csv contains 24058263 rows and 2 columns.
 
 3. Data Pre-processing Steps and Inspiration:
-The preprocessing of the data included the following steps:
-1. Checking for null values: -To improve accuracy by replacing/removing null values.
-2. Create a new dataset with columns : ‘Cust_Id’, ’Rating’ and ‘Movie_Id’.
-3. Create a list of less popular movies and a list of less active customers and remove them from the new dataset.
-The inspiration of the Netflix recommendation project is that you can explore cutting-edge technologies, gain valuable insights into user behaviour, and contribute to enhancing the streaming experience for millions of viewers worldwide.
+The preprocessing of the data included the following steps:1. Checking for null values: -To improve accuracy by replacing/removing null values.2. Create a new dataset with columns : ‘Cust_Id’, ’Rating’ and ‘Movie_Id’.3. Create a list of less popular movies and a list of less active customers and remove them from the new dataset.The inspiration of the Netflix recommendation project is that you can explore cutting-edge technologies, gain valuable insights into user behaviour, and contribute to enhancing the streaming experience for millions of viewers worldwide.
 
 4. Choosing the Algorithm for the Project:
 • Singular Value Decomposition(SVD):
